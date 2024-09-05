@@ -21,7 +21,7 @@ Before using the script, ensure you have the following prerequisites set up:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Siallus/RetroAchievementsLibraryValidator
    ```
 
 2. **Configure Script Variables**:
