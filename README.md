@@ -2,12 +2,14 @@
 
 This project is a PowerShell script designed to hash ROM files and match them to the RetroAchievements database using the RetroAchievements API and RAHasher. It generates a CSV report detailing whether the ROM matches an entry in the database and provides additional information such as the game title and achievement count.
 
+Please note that this is a rough draft and improvements could definitely be made. It works in it's current state and unless any URLs change, it will continue to work for new 
+
 ## Prerequisites
 
 Before using the script, ensure you have the following prerequisites set up:
 
 1. **RAHasher**: 
-   - Download RAHasher from the [RetroAchievements website](https://github.com/RetroAchievements/RAHasher).
+   - Download RAHasher from [RetroAchievement's GitHub](https://github.com/RetroAchievements/RAHasher).
    - Make note of the path to `RAHasher.exe`, as this will be needed in the script configuration.
 
 2. **RetroAchievements Account**:
@@ -84,6 +86,10 @@ The resulting CSV report contains the following columns:
 
 - Ensure that your system folder names in `$SYSTEM_TO_FOLDER_MAP` match exactly with the corresponding subfolders in `$ROM_BASE_PATH`.
 - The script uses RAHasher to generate hashes for ROMs. Ensure that RAHasher is correctly installed and accessible from the path specified in `$RAHASHER_PATH`.
+
+## Disclaimer
+
+This script is a work in progress but is expected to function well into the future given the stability and longevity of the tools it utilizes, such as RAHasher and the RetroAchievements API.
 
 ## Future Enhancements
 
