@@ -62,7 +62,7 @@ Once everything is set up, you can run the script to hash your ROMs and generate
 1. Open PowerShell and navigate to the directory where the script is located.
 2. Run the script:
    ```powershell
-   .\RetroAchievementsHasher.ps1
+   .\Get-RomHashes.ps1
    ```
 
 The script will attempt to match each ROM file in your specified system folders with the RetroAchievements database. It will generate a CSV file at the specified `$HASH_OUTPUT_PATH`, detailing the results of each match, including game titles and achievement counts.
