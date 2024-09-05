@@ -94,4 +94,6 @@ This script is a work in progress but is expected to function well into the futu
 ## Future Enhancements
 
 - Add support for renaming ROMs to match the RetroAchievements standard.
-- Expand support for additional systems.
+- Add support for checking individual ROMs.
+- Add additional error checking and handling.
+- General cleanup.
