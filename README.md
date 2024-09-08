@@ -7,7 +7,7 @@ This project is a PowerShell script designed to hash ROM files and match them to
 Before using the script, ensure you have the following prerequisites set up:
 
 1. **RAHasher**: 
-   - Download RAHasher from [RetroAchievement's GitHub](https://github.com/RetroAchievements/RAHasher).
+   - Download RAHasher from [RetroAchievement's GitHub]([https://github.com/RetroAchievements/RAHasher](https://github.com/RetroAchievements/RALibretro/releases)).
    - Make note of the path to `RAHasher.exe`, as this will be needed in the script configuration.
 
 2. **RetroAchievements Account**:
