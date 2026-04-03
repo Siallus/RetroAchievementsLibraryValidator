@@ -135,7 +135,7 @@ $RASystems = Get-RASystemsList
 
 $HashOutputObject = [System.Collections.Generic.List[Object]]::New()
 
-$SystemCount = 1
+$SystemCount = 0
 Foreach ($System in $Systems) {
     $SystemCount++
     $PercentCompleteSystems = [Math]::Min(100, [int](($SystemCount / $Systems.Count) * 100))
