@@ -1,6 +1,6 @@
 # RetroAchievements Library Validator
 
-This project aims to make the process of checking the validity of your ROMs for RetroAchievements a breeze. Just download the script or clone the repository, configure your variables, and get a report of which ROMs are valid for earning achievements. If you have any questions, please feel free to message me on Reddit under the same username.
+This project aims to make the process of checking the validity of your ROMs for RetroAchievements a breeze. Just download the script or clone the repository, configure your variables, and get a report of which ROMs are valid for earning achievements. If you have any questions, please feel free to message me on Discord directly or @ me in the RA Discord.
 
 ## Prerequisites
 
