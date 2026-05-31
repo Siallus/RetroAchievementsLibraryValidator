@@ -145,7 +145,7 @@ Foreach ($System in $Systems) {
     
     $SystemID = $RASystems | Where-Object { $_.Name -eq $System.System } | Select-Object -ExpandProperty ID
 
-    $RomFiles = Get-ChildItem -Path "$ROM_BASE_PATH\$($System.SystemFolder)" -File
+    $RomFiles = Get-ChildItem -Path "$ROM_BASE_PATH\$($System.SystemFolder)" -File -Recurse
     If ($RomFiles.Count -eq 0) {
         Write-Host "No ROM files found in $ROM_BASE_PATH\$($System.SystemFolder)" -ForegroundColor Yellow
         Continue # Skip to the next system
